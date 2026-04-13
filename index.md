@@ -11,7 +11,6 @@ title: Dataset Directory
 {% for format in by_format %}
 ### {{ format.name }}
 
-| Title | Link |
 {% for item in format.items %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
@@ -23,7 +22,6 @@ title: Dataset Directory
 {% for scale in by_scale %}
 ### {{ scale.name }}
 
-| Title | Link |
 {% for item in scale.items %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
@@ -35,7 +33,6 @@ title: Dataset Directory
 {% for obj in by_objective %}
 ### {{ obj.name }}
 
-| Title | Link |
 {% for item in obj.items %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
@@ -47,7 +44,6 @@ title: Dataset Directory
 {% for ann in by_annotation %}
 ### {{ ann.name }}
 
-| Title | Link |
 {% for item in ann.items %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
