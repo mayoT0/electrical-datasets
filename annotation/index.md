@@ -36,7 +36,7 @@ For each domain, datasets are organized in the following annotation-type order.
 
 {% if power_synthetic.size > 0 %}
 {% for item in power_synthetic %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -51,7 +51,7 @@ No matching datasets
 
 {% if power_anonymized.size > 0 %}
 {% for item in power_anonymized %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -65,7 +65,7 @@ No matching datasets
 
 {% if power_compilation.size > 0 %}
 {% for item in power_compilation %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -80,7 +80,7 @@ No matching datasets
 
 {% if power_human.size > 0 %}
 {% for item in power_human %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -94,7 +94,7 @@ No matching datasets
 
 {% if elec_synthetic.size > 0 %}
 {% for item in elec_synthetic %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -109,7 +109,7 @@ No matching datasets
 
 {% if elec_anonymized.size > 0 %}
 {% for item in elec_anonymized %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -123,7 +123,7 @@ No matching datasets
 
 {% if elec_compilation.size > 0 %}
 {% for item in elec_compilation %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -138,7 +138,7 @@ No matching datasets
 
 {% if elec_human.size > 0 %}
 {% for item in elec_human %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -152,7 +152,7 @@ No matching datasets
 
 {% if built_synthetic.size > 0 %}
 {% for item in built_synthetic %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -167,7 +167,7 @@ No matching datasets
 
 {% if built_anonymized.size > 0 %}
 {% for item in built_anonymized %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -181,7 +181,7 @@ No matching datasets
 
 {% if built_compilation.size > 0 %}
 {% for item in built_compilation %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
@@ -196,7 +196,7 @@ No matching datasets
 
 {% if built_human.size > 0 %}
 {% for item in built_human %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% else %}
 No matching datasets
