@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {{ '/assets/style.css' | relative_url }}
+</head>
+
+
+<header>
+  assets/images/electrical_dataset.jpg
+  <h1>Dataset Directory</h1>
+</header>
+
+
+<body>
+  <main>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Overview</a> |
+      <a href="{{ '/domain/' | relative_url }}">Domain</a> |
+      <a href="{{ '/format/' | relative_url }}">Format</a> |
+      <a href="{{ '/scale/' | relative_url }}">Scale</a> |
+      <a href="{{ '/objective/' | relative_url }}">Objective</a> |
+      <a href="{{ '/annotation/' | relative_url }}">Annotation</a>
+    </nav>
+  </main>
+</body>
+</html>
