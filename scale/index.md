@@ -3,32 +3,108 @@ layout: default
 title: Dataset Scale
 ---
 
-# Dataset Directory
+## Dataset Scale
 
-## Scale (Grouped by Domain)
+This page lists datasets by domain and dataset scale, showing the dataset title and URL.
+For each domain, datasets are organized in the following dataset scale order.
 
-{% assign domains = site.data.datasets | group_by: "domain" %}
+- Dataset
+  - Domain: Power
+    - Dataset Scale:
+      1. [Small-scale/single-domian](#power---small)
+      2. [Large-scale/benchmark](#power---large)
+  - Domain: Electronics
+    - Dataset Scale:
+      1. [Small-scale/single-domian](#power---small)
+      2. [Large-scale/benchmark](#power---large)
+  - Domain: Built Environment
+    - Dataset Scale:
+      1. [Small-scale/single-domian](#power---small)
+      2. [Large-scale/benchmark](#power---large)
 
-{% for domain in domains %}
-## {{ domain.name }}
+### Power - Small
 
-{% assign small = domain.items | where: "scale", "Small" %}
-{% assign large = domain.items | where: "scale", "Large" %}
+{% assign power_small = site.data.datasets
+  | where: "domain", "Power"
+  | where: "scale", "Small" %}
 
-{% if small.size > 0 %}
-### Small scale
-
-{% for item in small %}
+{% if power_small.size > 0 %}
+{% for item in power_small %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
+{% else %}
+No matching datasets
 {% endif %}
 
-{% if large.size > 0 %}
-### Large scale
 
-{% for item in large %}
+### Power - Large
+
+{% assign power_large = site.data.datasets
+  | where: "domain", "Power"
+  | where: "scale", "Large" %}
+
+{% if power_large.size > 0 %}
+{% for item in power_large %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
+{% else %}
+No matching datasets
 {% endif %}
 
+### Electronics - Small
+
+{% assign elec_small = site.data.datasets
+  | where: "domain", "Electronics"
+  | where: "scale", "Small" %}
+
+{% if elec_small.size > 0 %}
+{% for item in elec_small %}
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
+{% else %}
+No matching datasets
+{% endif %}
+
+
+### Electronics - Large
+
+{% assign elec_large = site.data.datasets
+  | where: "domain", "Electronics"
+  | where: "scale", "Large" %}
+
+{% if elec_large.size > 0 %}
+{% for item in elec_large %}
+| {{ item.title }} | [Link]({{ item.url }}) |
+{% endfor %}
+{% else %}
+No matching datasets
+{% endif %}
+
+### Built Environment - Small
+
+{% assign built_small = site.data.datasets
+  | where: "domain", "Built Environment"
+  | where: "scale", "Small" %}
+
+{% if built_small.size > 0 %}
+{% for item in built_small %}
+| {{ item.title }} | [Link]({{ item.url }}) |
+{% endfor %}
+{% else %}
+No matching datasets
+{% endif %}
+
+
+### Built Environment - Large
+
+{% assign built_large = site.data.datasets
+  | where: "domain", "Built Environment"
+  | where: "scale", "Large" %}
+
+{% if built_large.size > 0 %}
+{% for item in built_large %}
+| {{ item.title }} | [Link]({{ item.url }}) |
+{% endfor %}
+{% else %}
+No matching datasets
+{% endif %}
