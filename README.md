@@ -1,6 +1,6 @@
 # Electrical Layout Dataset Directory
 
-This directory aims to provide a structured and easy‑to‑navigate overview of datasets relevant to electrical layout research and development. By organizing datasets using a simple, consistent taxonomy—covering data format, scale, objective, and annotation type—it helps users quickly identify and compare resources that best match their technical needs and use cases
+This directory aims to provide a structured and easy‑to‑navigate overview of datasets relevant to electrical layout research and development. By organizing datasets using a simple, consistent taxonomy—covering domain, data format, scale, objective, and annotation type—it helps users quickly identify and compare resources that best match their technical needs and use cases
 
 ## Browse by category
 
