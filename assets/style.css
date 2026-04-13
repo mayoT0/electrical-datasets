@@ -34,7 +34,7 @@ h3 {
 
 
 .header-image {
-  max-width: 250px;   /* adjust as needed */
+  max-width: 50px;   /* adjust as needed */
   width: 100%;
   height: auto;       /* preserves aspect ratio */
   display: block;
