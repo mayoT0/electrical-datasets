@@ -1,10 +1,9 @@
-
 ---
 layout: default
 title: Dataset Objective
 ---
 
-{{ '/assets/images/objective.jpg' | relative_url }}
+{{ 'assets/images/objective.jpg' | relative_url }}
 
 # Dataset Directory
 
