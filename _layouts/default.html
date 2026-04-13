@@ -4,24 +4,13 @@
   <meta charset="UTF-8" />
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {{ 'assets/style.css' | relative_url }}
+  {{ '/assets/style.css' | relative_url }}
 </head>
 
 
 <header>
   <h1>Electrical Layout Dataset Directory</h1>
 </header>
-
-
-<body>
-<nav>
-  <a href="{{ '/' | relative_url }}">Overview</a> |
-  <a href="{{ '/domain/' | relative_url }}">Domain</a> |
-  <a href="{{ '/format/' | relative_url }}">Format</a> |
-  <a href="{{ '/scale/' | relative_url }}">Scale</a> |
-  <a href="{{ '/objective/' | relative_url }}">Objective</a> |
-  <a href="{{ '/annotation/' | relative_url }}">Annotation</a>
-</nav>
   
 <main>
   {{ content }}
@@ -29,7 +18,7 @@
 
 <footer>
   <img
-    src="{{ 'assets/images/electrical_datasets.jpg' | relative_url }}"
+    src="{{ '/assets/images/electrical_datasets.jpg' | relative_url }}"
     alt="Electrical dataset logo"
     class="footer-image"
   />
