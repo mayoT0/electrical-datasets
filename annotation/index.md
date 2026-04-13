@@ -15,7 +15,7 @@ title: Annotation Effort Type
 | Title | URL |
 |-------|-----|
   {% for item in power_synthetic %}
-  | {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | {{ item.url }} |
   {% endfor %}
 {% endif %}
 
@@ -30,7 +30,7 @@ title: Annotation Effort Type
 | Title | URL |
 |-------|-----|
   {% for item in power_anonymized %}
-  | {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | {{ item.url }} |
   {% endfor %}
 {% endif %}
 
@@ -44,7 +44,7 @@ title: Annotation Effort Type
 | Title | URL |
 |-------|-----|
   {% for item in power_compilation %}
-  | {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | {{ item.url }} |
   {% endfor %}
 {% endif %}
 
@@ -59,6 +59,6 @@ title: Annotation Effort Type
 | Title | URL |
 |-------|-----|
   {% for item in power_human %}
-  | {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | {{ item.url }} |
   {% endfor %}
 {% endif %}
