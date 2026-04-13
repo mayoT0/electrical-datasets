@@ -21,7 +21,7 @@ title: Annotation Effort Type
 ### Power - Anonymized
 
 {% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Anonymized" %}
-{% for ann in filtered_power_anon %}
+{% for ann1 in filtered_power_anon %}
 ### {{ ann1.name }}
 
 {% for item in ann1.items %}
