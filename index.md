@@ -13,8 +13,8 @@ title: Dataset Directory
 {% for format in by_format %}
 ### {{ format.name }}
 
-| Title | Domain | Scale | Objective | Annotation type | Link |
-|------|--------|-------|-----------|-----------------|------|
+| Title | Link |
+|------|------|
 {% for item in format.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
@@ -43,8 +43,8 @@ title: Dataset Directory
 {% for obj in by_objective %}
 ### {{ obj.name }}
 
-| Title | Domain | Format | Scale | Annotation type | Link |
-|------|--------|--------|-------|-----------------|------|
+| Title | Link |
+|------|------|
 {% for item in obj.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
@@ -58,8 +58,8 @@ title: Dataset Directory
 {% for ann in by_annotation %}
 ### {{ ann.name }}
 
-| Title | Domain | Format | Scale | Objective | Link |
-|------|--------|--------|-------|-----------|------|
+| Title | Link |
+|------|------|
 {% for item in ann.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
