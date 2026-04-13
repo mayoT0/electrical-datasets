@@ -5,8 +5,6 @@ title: Dataset Directory
 
 # Dataset Directory
 
----
-
 ## Format
 
 {% assign by_format = site.data.datasets | group_by: "data_format" %}
@@ -19,8 +17,6 @@ title: Dataset Directory
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
 {% endfor %}
-
----
 
 ## Scale
 
@@ -35,8 +31,6 @@ title: Dataset Directory
 {% endfor %}
 {% endfor %}
 
----
-
 ## Objective
 
 {% assign by_objective = site.data.datasets | group_by: "objective" %}
@@ -49,8 +43,6 @@ title: Dataset Directory
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
 {% endfor %}
-
----
 
 ## Annotation Type
 
