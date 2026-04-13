@@ -13,7 +13,7 @@ title: Dataset Directory
 
 | Title | Link |
 {% for item in format.items %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% endfor %}
 
@@ -25,7 +25,7 @@ title: Dataset Directory
 
 | Title | Link |
 {% for item in scale.items %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% endfor %}
 
@@ -37,7 +37,7 @@ title: Dataset Directory
 
 | Title | Link |
 {% for item in obj.items %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% endfor %}
 
@@ -49,6 +49,6 @@ title: Dataset Directory
 
 | Title | Link |
 {% for item in ann.items %}
-| {{ item.title }} | {{ item.url }} |
+| {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% endfor %}
