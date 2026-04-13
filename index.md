@@ -3,6 +3,12 @@ layout: default
 title: Dataset Directory
 ---
 
+## Diagnostic
+
+| Works | Test |
+|------|------|
+| Yes | Table |
+
 # Dataset Directory
 
 ## Format
