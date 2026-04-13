@@ -11,22 +11,22 @@ For each domain, datasets are organized in the following annotation-type order.
 - Dataset
   - Domain: Power
     - Annotation types:
-      1. Synthetic
-      2. Anonymized
-      3. Curated
-      4. Human-annotated
+      1. [Synthetic](#power---synthetic)
+      2. [Anonymized](#power---anonymized)
+      3. [Curated](#power---compiledcurated)
+      4. [Human-annotated](#power---annotated)
   - Domain: Electronics
     - Annotation types:
-      1. Synthetic
-      2. Anonymized
-      3. Curated
-      4. Human-annotated
+      1. [Synthetic](#electronics---synthetic)
+      2. [Anonymized](#electronics---anonymized)
+      3. [Curated](#electronics---compiledcurated)
+      4. [Human-annotated](#electronics---annotated)
   - Domain: Built Environment
     - Annotation types:
-      1. Synthetic
-      2. Anonymized
-      3. Curated
-      4. Human-annotated
+      1. [Synthetic](#built-environment---synthetic)
+      2. [Anonymized](#built-environment---anonymized)
+      3. [Curated](#built-environment---compiledcurated)
+      4. [Human-annotated](#built-environment---annotated)
 
 ### Power - Synthetic
 
