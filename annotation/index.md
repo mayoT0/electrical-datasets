@@ -13,7 +13,7 @@ title: Annotation Effort Type
 
 {% if power_synthetic.size > 0 %}
   {% for item in power_synthetic %}
-    | {{ item.title }} | {{ item.url }} |
+  | {{ item.title }} | {{ item.url }} |
   {% endfor %}
 {% endif %}
 
@@ -26,7 +26,7 @@ title: Annotation Effort Type
 
 {% if power_anonymized.size > 0 %}
   {% for item in power_anonymized %}
-    | {{ item.title }} | {{ item.url }} |
+  | {{ item.title }} | {{ item.url }} |
   {% endfor %}
 {% endif %}
 
@@ -38,7 +38,7 @@ title: Annotation Effort Type
 
 {% if power_compilation.size > 0 %}
   {% for item in power_compilation %}
-    | {{ item.title }} | {{ item.url }} |
+  | {{ item.title }} | {{ item.url }} |
   {% endfor %}
 {% endif %}
 
@@ -51,7 +51,7 @@ title: Annotation Effort Type
 
 {% if power_human.size > 0 %}
   {% for item in power_human %}
-    | {{ item.title }} | {{ item.url }} |
+  | {{ item.title }} | {{ item.url }} |
   {% endfor %}
 {% endif %}
 
