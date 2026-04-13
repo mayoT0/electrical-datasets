@@ -11,9 +11,9 @@ title: Annotation Effort Type
 
 {% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Synthetic" %}
 {% for ann in filtered_power_syn %}
-### {{ ann_power_syn.name }}
+### {{ ann.name }}
 
-{% for item in ann_power_syn.items %}
+{% for item in ann.items %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% endfor %}
@@ -22,9 +22,9 @@ title: Annotation Effort Type
 
 {% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Anonymized" %}
 {% for ann in filtered_power_anon %}
-### {{ ann_power_anon.name }}
+### {{ ann1.name }}
 
-{% for item in ann_power_anon.items %}
+{% for item in ann1.items %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% endfor %}
@@ -32,10 +32,10 @@ title: Annotation Effort Type
 ### Power - Compiled/Curated
 
 {% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Curated" %}
-{% for ann in filtered_power_curated %}
-### {{ ann_power_curated.name }}
+{% for ann2 in filtered_power_curated %}
+### {{ ann2.name }}
 
-{% for item in ann_power_curated.items %}
+{% for item in ann2.items %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% endfor %}
@@ -43,10 +43,10 @@ title: Annotation Effort Type
 ### Power - Synthetic
 
 {% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Annotated" %}
-{% for ann in filtered_power_annonate %}
-### {{ ann_power_annotate.name }}
+{% for ann3 in filtered_power_annonate %}
+### {{ ann3.name }}
 
-{% for item in ann_power_annoate.items %}
+{% for item in ann3.items %}
 | {{ item.title }} | [Link]({{ item.url }}) |
 {% endfor %}
 {% endfor %}
