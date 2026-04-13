@@ -9,44 +9,51 @@ title: Annotation Effort Type
 
 ### Power - Synthetic
 
-{% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Synthetic" %}
-{% for ann in filtered_power_syn %}
-### {{ ann.name }}
 
-{% for item in ann.items %}
-| {{ item.title }} | [Link]({{ item.url }}) |
+{% assign power_synthetic = site.data.datasets
+  | where: "domain", "Power"
+  | where: "annotation_type", "Synthetic" %}
+
+{% for item in power_synthetic %}
+| {{ item.title }} | {{ item.url }} |
 {% endfor %}
-{% endfor %}
+
 
 ### Power - Anonymized
 
-{% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Anonymized" %}
-{% for ann1 in filtered_power_anon %}
-### {{ ann1.name }}
 
-{% for item in ann1.items %}
-| {{ item.title }} | [Link]({{ item.url }}) |
+{% assign power_anonymized = site.data.datasets
+  | where: "domain", "Power"
+  | where: "annotation_type", "Anonymized" %}
+
+{% for item in power_anonymized %}
+| {{ item.title }} | {{ item.url }} |
 {% endfor %}
-{% endfor %}
+
 
 ### Power - Compiled/Curated
 
-{% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Curated" %}
-{% for ann2 in filtered_power_curated %}
-### {{ ann2.name }}
 
-{% for item in ann2.items %}
-| {{ item.title }} | [Link]({{ item.url }}) |
+{% assign power_compilation = site.data.datasets
+  | where: "domain", "Power"
+  | where: "annotation_type", "Curated" %}
+
+| Title | Link |
+| :---- | :--- |
+{% for item in power_compilation %}
+| {{ item.title }} | {{ item.url }} |
 {% endfor %}
-{% endfor %}
+
 
 ### Power - Synthetic
 
-{% assign filtered_power_syn = site.data.datasets | where: "domain", "Power" | where: "annotation_type", "Annotated" %}
-{% for ann3 in filtered_power_annonate %}
-### {{ ann3.name }}
 
-{% for item in ann3.items %}
-| {{ item.title }} | [Link]({{ item.url }}) |
-{% endfor %}
+{% assign power_human = site.data.datasets
+  | where: "domain", "Power"
+  | where: "annotation_type", "Annotated" %}
+
+| Title | Link |
+| :---- | :--- |
+{% for item in power_human %}
+| {{ item.title }} | {{ item.url }} |
 {% endfor %}
