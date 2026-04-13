@@ -5,6 +5,29 @@ title: Annotation Effort Type
 
 ## Annotation Type
 
+This page lists datasets by domain and annotation type, showing the dataset title and URL.
+For each domain, datasets are organized in the following annotation-type order.
+
+- Dataset
+  - Domain: Power
+    - Annotation types:
+      1. Synthetic
+      2. Anonymized
+      3. Curated
+      4. Human-annotated
+  - Domain: Electronics
+    - Annotation types:
+      1. Synthetic
+      2. Anonymized
+      3. Curated
+      4. Human-annotated
+  - Domain: Built Environment
+    - Annotation types:
+      1. Synthetic
+      2. Anonymized
+      3. Curated
+      4. Human-annotated
+
 ### Power - Synthetic
 
 {% assign power_synthetic = site.data.datasets
