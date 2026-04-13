@@ -12,9 +12,7 @@ title: Annotation Effort Type
   | where: "annotation_type", "Synthetic" %}
 
 {% if power_synthetic.size > 0 %}
-{% for syn in power_synthetic %}
-### {{ syn.name }}
-{% for item in syn.items %}
+{% for item in power_synthetic %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
 {% endfor %}
@@ -28,8 +26,6 @@ title: Annotation Effort Type
 
 {% if power_anonymized.size > 0 %}
 {% for item in power_anonymized %}
-### {{ anon.name }}
-{% for item in anon.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
 {% endfor %}
@@ -42,8 +38,6 @@ title: Annotation Effort Type
 
 {% if power_compilation.size > 0 %}
 {% for item in power_compilation %}
-### {{ comp.name }}
-{% for item in comp.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
 {% endfor %}
@@ -57,8 +51,6 @@ title: Annotation Effort Type
 
 {% if power_human.size > 0 %}
 {% for item in power_human %}
-### {{ human.name }}
-{% for item in human.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
 {% endfor %}
