@@ -5,6 +5,15 @@ title: Annotation Effort Type
 
 ## Annotation Type
 
+<pre>
+{% for item in site.data.datasets %}
+DOMAIN=[{{ item.domain }}]
+ANNOT=[{{ item.annotation_type }}]
+FORMAT=[{{ item.data_format }}]
+--
+{% endfor %}
+</pre>
+
 ### Power - Synthetic
 
 {% assign power_synthetic = site.data.datasets
