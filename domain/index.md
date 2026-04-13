@@ -3,8 +3,6 @@ layout: default
 title: Domain
 ---
 
-{{ '/assets/images/domain.jpg' | relative_url }}
-
 # Dataset Directory
 
 ## Domain
