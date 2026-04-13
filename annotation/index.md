@@ -38,8 +38,6 @@ title: Annotation Effort Type
   | where: "domain", "Power"
   | where: "annotation_type", "Curated" %}
 
-| Title | Link |
-| :---- | :--- |
 {% for item in power_compilation %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
@@ -52,8 +50,6 @@ title: Annotation Effort Type
   | where: "domain", "Power"
   | where: "annotation_type", "Annotated" %}
 
-| Title | Link |
-| :---- | :--- |
 {% for item in power_human %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
