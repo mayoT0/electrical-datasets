@@ -1,122 +1,122 @@
 domain,data_format,scale,objective,annotation_type,title,url
-Built Environment,Image-based,Small,Computer Vision Task,Annotated,Electrical-Symbol-recognition-and-Wiring-design,https://github.com/IKENNA113/Electrical-Symbol-recognition-and-Wiring-design
-Built Environment,Image-based,Small,Computer Vision Task,Annotated,symbol Dataset ,https://universe.Roboflow.com/trial-s9d0l/symbol-upc23
-Built Environment,Image-based,Small,Computer Vision Task,Anonymized,electrical symbol Dataset ,https://universe.Roboflow.com/fyp-hl9hj/electrical-symbol
+Power,Structured,Large,System Analysis,Curated,A large synthetic dataset for machine learning applications in power transmission grids,https://zenodo.org/records/13378476
+Electronics,Image-based,Small,Error Checking,Anonymized,A PCB Dataset for Defects Detection and Classification,https://www.kaggle.com/datasets/akhatova/pcb-defects
+Electronics,Image-based,Large,Error Checking,Annotated,A Public Ground-Truth Dataset for Handwritten Circuit Diagram Images,https://zenodo.org/records/17469897
+Power,Structured,Large,System Analysis,Curated,Africa - Electricity Transmission and Distribution Grid Map,https://datacatalog.worldbank.org/search/dataset/0040465/africa-electricity-transmission-and-distribution-grid-map
+Electronics,Executable,Large,Decision Making,Curated,ALIGN-public CircuitsDatabase,https://github.com/ALIGN-analoglayout/ALIGN-public/tree/master/CircuitsDatabase
+Power,Structured,Small,System Analysis,Synthetic,"An urban synthetic electricity distribution network from Spain, third version",https://zenodo.org/records/6382240
+Electronics,Executable,Large,Decision Making,Curated,AnalogGenie,https://github.com/xz-group/AnalogGenie/tree/main
+Built Environment,Image-based,Small,Computer Vision Task,Anonymized,anonED  A training free method for anonymising sensitive regions in complex engineering diagrams.   ,https://github.com/mayoT0/anonED
+Electronics,Executable,Large,System Analysis,Curated,ASU-VDA-Lab ML-for-IR-drop ,https://github.com/ASU-VDA-Lab/ML-for-IR-drop/tree/main
+Electronics,Executable,Large,System Analysis,Synthetic,Asynchronous Circuit Logic Dataset,https://ieee-dataport.org/documents/asynchronous-circuit-logic-dataset-acld
+Electronics,Structured,Large,Computer Vision Task,Annotated,Bench-PCNP  ,https://ieee-dataport.org/documents/bench-pcnp
+Electronics,Executable,Large,System Analysis,Annotated,cad-polito-it I99T  ITC99 benchmarks,https://github.com/cad-polito-it/I99T
+Power,Structured,Large,System Analysis,Anonymized,caltech-netlab digital-twin-dataset   ,https://github.com/caltech-netlab/digital-twin-dataset/tree/master
+Power,Structured,Small,System Analysis,Curated,CarbonDistributionMap  Code and Dataset for  Open Datasets for Grid Modeling and Visualization  An Alberta Power Network Case   ,https://github.com/BenCheng2/CarbonDistributionMap/tree/main
+Power,Structured,Large,System Analysis,Synthetic,case60nordic random topology power grid dataset,https://zenodo.org/records/7100302
+Electronics,Image-based,Small,Computer Vision Task,Annotated,Cct Dataset  ,https://universe.Roboflow.com/the-hashemite-university-6jqtj/cct-gpbio
+Electronics,Image-based,Large,Computer Vision Task,Annotated,ci2n_datasets   ,https://github.com/LAD021/ci2n_datasets
+Electronics,Image-based,Small,Computer Vision Task,Annotated,CirAI Model  ,https://universe.Roboflow.com/meezaan-ryklief-ol7dr/cirai-jt6n6
+Electronics,Image-based,Small,Computer Vision Task,Annotated,Circuit Component Detection Model  ,https://universe.Roboflow.com/nadim-ahmed/circuit-component-detection-9wiz7
+Electronics,Image-based,Small,Computer Vision Task,Annotated,Circuit Diagram Dataset  ,https://universe.Roboflow.com/james-fu-mtcku/circuit-diagram
+Electronics,Image-based,Small,Computer Vision Task,Annotated,circuit diagram Model  ,https://universe.Roboflow.com/deeplearning-l1bq5/circuit-diagram-eo4kn
+Electronics,Image-based,Large,Computer Vision Task,Annotated,circuit elements Dataset,https://universe.Roboflow.com/Roboflow-100/circuit-elements
+Electronics,Image-based,Small,Computer Vision Task,Annotated,circuit Model  ,https://universe.Roboflow.com/circuitrecognnition/circuit-3l5sc
+Electronics,Image-based,Small,Computer Vision Task,Annotated,Circuit Recognition Model  ,https://universe.Roboflow.com/rp-project/circuit-recognition
+Electronics,Image-based,Small,Computer Vision Task,Annotated,CIrcuit Recognition Model  ,https://universe.Roboflow.com/ml-circuit-recognition/circuit-recognition-xddcj
+Electronics,Structured,Large,System Analysis,Synthetic,circuit-gnn Graph Neural Networks for Distributed Circuit Design,https://github.com/hehaodele/circuit-gnn
+Electronics,Structured,Large,System Analysis,Curated,CircuitNet  An Open-Source Dataset for Machine Learning Applications in Electronic Design Automation,https://github.com/circuitnet/CircuitNet
+Electronics,Image-based,Small,Computer Vision Task,Annotated,Circuits Model ,https://universe.Roboflow.com/zavrsni/circuits-oxmv9
+Electronics,Structured,Large,Decision Making,Synthetic,CktGNN  Circuit Graph Neural Network for Electronic Design Automation,https://github.com/zehao-dong/CktGNN
+Electronics,Structured,Small,System Analysis,Synthetic,CML DATA  ,https://ieee-dataport.org/documents/cml-data
+Power,Structured,Large,System Analysis,Anonymized,Columbia University Synthetic Power Grid with Geographical Coordinates,https://wimnet.ee.columbia.edu/portfolio/synthetic-power-grids-data-sets/
+Power,Structured,Large,System Analysis,Anonymized,Daily profiles (2020) of load of a electricity distribution network (86 nodes) from Croatia,https://zenodo.org/records/6382254
+Power,Structured,Large,System Analysis,Anonymized,Daily profiles (2040) of load and flexibility of an urban electricity distribution network from Portugal  ATTEST project,https://zenodo.org/records/6401465
+Electronics,Image-based,Large,Computer Vision Task,Curated,dakhmatipcb open-schematics ,https://huggingface.co/datasets/dakhmatipcb/open-schematics
+Electronics,Image-based,Small,Error Checking,Curated,Dataset for Hierarchical Optimization Framework for Robust PCB Defect Detection via Adaptive YOLOv12 Architecture  ,https://ieee-dataport.org/documents/dataset-hierarchical-optimization-framework-robust-pcb-defect-detection-adaptive-yolov12
+Electronics,Structured,Large,Decision Making,Anonymized,Dataset for Quantum Circuits Mapping,https://data.mendeley.com/datasets/pmycgb2bt7/1
+Electronics,Image-based,Small,Error Checking,Annotated,DefectDet  An Annotated Dataset of Printed Circuit Boards with Surface Defects,https://data.mendeley.com/datasets/t9d9zs3bmb/1
+Power,Structured,,System Analysis,Curated,Derived map of global electricity transmission and distribution lines Dataset,https://energydata.info/dataset/derived-map-of-global-electricity-transmission-and-distribution-lines
+Electronics,Image-based,Small,Computer Vision Task,Annotated,Digitize-HCD  A Dataset for Digitization of Handwritten Circuit Diagrams,https://data.mendeley.com/datasets/rngcz5wtv8/1
+Power,Structured,Large,System Analysis,Curated,DohaTeslaLab Global Power Grid Map,https://osf.io/wj5fm
+Power,Structured,Large,System Analysis,Curated,Dominican Republic Electricity Transmission Network 2023 - Dataset - ,https://energydata.info/dataset/dominican-republic-electricity-transmission-network-2023
+Electronics,Structured,Small,System Analysis,Anonymized,Double-delay voltage-controlled oscillator chaotic integrated circuit data set  ,https://ieee-dataport.org/documents/double-delay-voltage-controlled-oscillator-chaotic-integrated-circuit-data-set
+Electronics,Image-based,Small,Computer Vision Task,Annotated,DsPCBSD+,https://doi.org/10.6084/m9.figshare.24970329
+Power,Structured,Large,System Analysis,Synthetic,Dynamic stability of synthetic power grid models,https://zenodo.org/records/8204334
+Power,Structured,Large,System Analysis,Curated,e2nIEE simbench  Electrical Power System Benchmark Dataset directly usable with pandapower (use the project website for Executable tools),https://github.com/e2nIEE/simbench
+Power,Structured,Large,System Analysis,Curated,ECOWAS Region - Existing and Planned Transmission Grid - Dataset - ,https://energydata.info/dataset/transmission-grid-ecowas-region
+Power,Structured,Large,System Analysis,Curated,Egypt - Electricity Transmission Network - Dataset - ,https://energydata.info/dataset/egypt-electricity-transmission-network-2017
+Power,Structured,Large,System Analysis,Curated,Electric Grid Test Case Repository,https://electricgrids.engr.tamu.edu/electric-grid-test-cases/
 Built Environment,Image-based,Small,Computer Vision Task,Annotated,electrical Model,https://universe.Roboflow.com/thesis-4pfnk/electrical-42wl4
 Built Environment,Image-based,Small,Computer Vision Task,Annotated,electrical plan Model,https://universe.Roboflow.com/workspace-terhb/electrical-plan
-Electronics,Image-based-based,Small,Computer Vision Task,Anonymized,Python Keras CNN for Electronic Symbol Image Recognition,https://github.com/hernancontigiani/Electronic-symbol-recognition-system/tree/master
-Electronics,Image-based,Small,Computer Vision Task,Synthetic,Systems Evaluation SYnthetic Documents,http://mathieu.delalandre.free.fr/projects/sesyd/symbols/diagrams.html
-Electronics,Image-based,Small,Error Checking,Anonymized,A PCB Dataset for Defects Detection and Classification,https://www.kaggle.com/datasets/akhatova/pcb-defects
-Electronics,Image-based,Large,Error Checking,Annotated,SPot-the-Difference,https://github.com/amazon-science/spot-diff
+Built Environment,Image-based,Small,Computer Vision Task,Anonymized,electrical symbol Dataset ,https://universe.Roboflow.com/fyp-hl9hj/electrical-symbol
+Built Environment,Image-based,Small,Computer Vision Task,Annotated,Electrical-Symbol-recognition-and-Wiring-design,https://github.com/IKENNA113/Electrical-Symbol-recognition-and-Wiring-design
+Power,Structured,Large,System Analysis,Curated,Electricity Transmission Lines  Digital Atlas of Australia,https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/about
+Power,Structured,Small,System Analysis,Synthetic,ER_SPG  Synthetic Power Graph generation by Erdos-Renyi Model,https://ieee-dataport.org/documents/erspg-synthetic-power-graph-generation-erdos-renyi-model
+Power,Structured,Small,System Analysis,Anonymized,European power grid network with nodal prices,https://zenodo.org/records/7037956
+Electronics,Image-based,Small,Error Checking,Annotated,FPIC-Component,https://datasetninja.com/fpic-component
+Electronics,Structured,Small,Computer Vision Task,Curated,GANA_circuit_data  just checking,https://github.com/kkunal1408/GANA_circuit_data/tree/master
+Power,Structured,Large,System Analysis,Curated,Georeferentiation of CORE-TSO substations with OSM,https://zenodo.org/records/13367535
+Power,Structured,Large,System Analysis,Curated,Grid Topology for the IKT Simulation,https://zenodo.org/records/15688472
+Power,Structured,Large,System Analysis,Anonymized,GridKit  European and North-American extracts,https://www.doi.org/10.5281/ZENODO.47317
+Electronics,Structured,Small,Computer Vision Task,Annotated,Hand-drawn electrical circuit diagram graph generation,https://ieee-dataport.org/documents/hand-drawn-electrical-circuit-diagram-graph-generation
+Electronics,Image-based,Small,Computer Vision Task,Annotated,Hand-drawn Power Converter Circuit Diagrams  ,https://ieee-dataport.org/documents/hand-drawn-power-converter-circuit-diagrams
+Electronics,Structured,Large,System Analysis,Anonymized,IntelLabs FloorSet,https://github.com/IntelLabs/FloorSet/tree/main
+Electronics,Structured,Large,Decision Making,Annotated,ISPD 2011 Routability-driven Placement Contest and Benchmark Suite,https://www.ispd.cc/contests/11/ispd2011_contest.html
+Power,Structured,Large,System Analysis,Curated,Item - 10kV-400V Grid Topologies,https://figshare.com/articles/dataset/10kV-400V_Grid_Topologies/14604663
+Power,Structured,Large,System Analysis,Curated,Item - 60kV Grid-Topology - Technical University of Denmark,https://data.dtu.dk/articles/dataset/60kV_Grid-Topology/14501406
+Power,Structured,Large,System Analysis,Anonymized,Item - Node information of Chilean power grid without tap,https://figshare.com/articles/dataset/Node_information_of_Chilean_power_grid_without_tap/6066578?file=10920506
+Electronics,Image-based,Small,Computer Vision Task,Annotated,JUHCCR-v1-A,https://www.kaggle.com/datasets/ayush02102001/circuit-component-analysis/data?select=CktComDb-v1.a
+Power,Structured,Small,System Analysis,Synthetic,KPG  Kirk representation of Power Graphs  ,https://ieee-dataport.org/documents/kpg-kirk-representation-power-graphs
+Power,Structured,Large,System Analysis,Curated,Liberia electricity transmission network 2023 - Dataset - ,https://energydata.info/dataset/liberia-electricity-transmission-network-2023
+Power,Structured,Large,System Analysis,Curated,Line list for the transmission grid in Germany and interconnectors in 2030 lines_eom_plus lines_transmission_germany_eomplus,https://openenergyplatform.org/database/tables/lines_transmission_germany_eomplus
+Electronics,Executable,Large,System Analysis,Synthetic,lsils benchmarks  EPFL logic synthesis benchmarks   ,https://doi.org/10.5281/zenodo.2572934
+Electronics,Executable,Large,Decision Making,Curated,Masala-CHAI,https://github.com/jitendra-bhandari/Masala-CHAI/tree/main
+Power,Structured,Large,System Analysis,Curated,MATPOWER,https://zenodo.org/records/15871662
+Power,Structured,Large,System Analysis,Anonymized,Medium-Voltage Distribution (Predictive) - Dataset,https://energydata.info/dataset/medium-voltage-distribution-predictive
+Electronics,Image-based,Small,Error Checking,Curated,MIXED PCB DEFECT DATASET,https://data.mendeley.com/datasets/fj4krvmrr5/4
+Electronics,Executable,Large,Decision Making,Synthetic,MNISQ  A Large-Scale Quantum Circuit Dataset for Machine Learning,https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset
+Electronics,Image-based,Small,Error Checking,Annotated,MPI-PCB Dataset,https://zenodo.org/records/8213098
 Electronics,Image-based,Large,Error Checking,Annotated,MVTec AD,https://www.kaggle.com/datasets/ipythonx/mvtec-ad/data
-Electronics,Image-based,Large,Error Checking,Curated,SSRheart PCB-Bank,https://github.com/SSRheart/PCB-Bank/tree/main
+Electronics,Image-based,Small,Computer Vision Task,Annotated,NetlistProject_V2 Dataset  ,https://universe.Roboflow.com/ahmet-emre/netlistproject_v2
+Power,Structured,Large,System Analysis,Synthetic,"OEDI  SMART-DS Synthetic Electrical Network Data OpenDSS Models for SFO, GSO, and AUS",https://data.openei.org/submissions/2981
+Electronics,Structured,Large,System Analysis,Synthetic,OpenABC-D  A Large-Scale Dataset For Machine Learning Guided Integrated Circuit Synthesis,https://ultraviolet.library.nyu.edu/records/mw6q2-a8p15
+Power,Structured,Large,System Analysis,Anonymized,OpenSynth D-GITT-RTE7000-2021   Datasets at Hugging Face,https://huggingface.co/datasets/OpenSynth/D-GITT-RTE7000-2021
+Electronics,Image-based,Small,Error Checking,Annotated,PCB Component Detection,https://sites.google.com/view/chiawen-kuo/home/pcb-component-detection
+Electronics,Image-based,Small,Error Checking,Annotated,PCB DSLR DATASET,https://zenodo.org/records/3886553
+Electronics,Image-based,Small,Computer Vision Task,Annotated,PCB Oriented Detection,https://www.kaggle.com/datasets/yuyi1005/pcb-oriented-detection
 Electronics,Image-based,Large,Error Checking,Curated,pcba surface defects datasets,https://ieee-dataport.org/documents/pcba-surface-defects-datasets
 Electronics,Image-based,Small,Error Checking,Annotated,PCB-Defect  An Annotated Dataset for Surface Defect Detection in Printed Circuit Boards,https://data.mendeley.com/datasets/vdj74sngvn/1
-Electronics,Executable,Large,Decision Making,Synthetic,MNISQ  A Large-Scale Quantum Circuit Dataset for Machine Learning,https://github.com/FujiiLabCollaboration/MNISQ-quantum-circuit-dataset
-Electronics,Executable,Large,Decision Making,Synthetic,QSBench  Synthetic quantum circuit datasets for QML benchmarking,https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo
-Electronics,Structured,Large,Decision Making,Anonymized,Dataset for Quantum Circuits Mapping,https://data.mendeley.com/datasets/pmycgb2bt7/1
-Electronics,Image-based,Small,Computer Vision Task,Annotated,Digitize-HCD  A Dataset for Digitization of Handwritten Circuit Diagrams,https://data.mendeley.com/datasets/rngcz5wtv8/1
-Electronics,Image-based,Large,Error Checking,Curated,The GraphPCB Dataset  ,https://ieee-dataport.org/documents/graphpcb-dataset
-Electronics,Image-based,Small,Error Checking,Annotated,FPIC-Component,https://datasetninja.com/fpic-component
-Electronics,Image-based,Small,Error Checking,Annotated,PCB DSLR DATASET,https://zenodo.org/records/3886553
-Electronics,Image-based,Small,Error Checking,Annotated,PCB Component Detection,https://sites.google.com/view/chiawen-kuo/home/pcb-component-detection
-Electronics,Structured,Small,Computer Vision Task,Annotated,Hand-drawn electrical circuit diagram graph generation,https://ieee-dataport.org/documents/hand-drawn-electrical-circuit-diagram-graph-generation
-Electronics,Executable,Large,System Analysis,Synthetic,Asynchronous Circuit Logic Dataset,https://ieee-dataport.org/documents/asynchronous-circuit-logic-dataset-acld
-Electronics,Structured,Small,System Analysis,Anonymized,Double-delay voltage-controlled oscillator chaotic integrated circuit data set  ,https://ieee-dataport.org/documents/double-delay-voltage-controlled-oscillator-chaotic-integrated-circuit-data-set
-Electronics,Image-based,Small,Computer Vision Task,Annotated,Hand-drawn Power Converter Circuit Diagrams  ,https://ieee-dataport.org/documents/hand-drawn-power-converter-circuit-diagrams
-Electronics,Structured,Small,System Analysis,Synthetic,CML DATA  ,https://ieee-dataport.org/documents/cml-data
-Electronics,Image-based,Small,Error Checking,Curated,Dataset for Hierarchical Optimization Framework for Robust PCB Defect Detection via Adaptive YOLOv12 Architecture  ,https://ieee-dataport.org/documents/dataset-hierarchical-optimization-framework-robust-pcb-defect-detection-adaptive-yolov12
 Electronics,Image-based,Small,Error Checking,Annotated,PCBTwo001  ,https://ieee-dataport.org/documents/pcbtwo001
-Electronics,Image-based,Small,Error Checking,Annotated,DefectDet  An Annotated Dataset of Printed Circuit Boards with Surface Defects,https://data.mendeley.com/datasets/t9d9zs3bmb/1
-Electronics,Image-based,Small,Error Checking,Curated,MIXED PCB DEFECT DATASET,https://data.mendeley.com/datasets/fj4krvmrr5/4
 Electronics,Image-based,Small,Error Checking,Annotated,PCB-Vision  A Multiscene RGB-Hyperspectral Benchmark Dataset of Printed Circuit Boards,https://zenodo.org/records/10617721
-Electronics,Image-based,Large,Error Checking,Annotated,A Public Ground-Truth Dataset for Handwritten Circuit Diagram Images,https://zenodo.org/records/17469897
-Electronics,Image-based,Small,Error Checking,Annotated,MPI-PCB Dataset,https://zenodo.org/records/8213098
-Electronics,Image-based,Small,Error Checking,Annotated,The screen-printed circuit defect dataset,https://www.scidb.cn/en/detail?dataSetId=3210a1b603d34ad7bc9053008161ad65&version=V2
-Electronics,Image-based,Large,Computer Vision Task,Annotated,ci2n_datasets   ,https://github.com/LAD021/ci2n_datasets
-Electronics,Structured,Large,Decision Making,Synthetic,CktGNN  Circuit Graph Neural Network for Electronic Design Automation,https://github.com/zehao-dong/CktGNN
-Electronics,Executable,Large,System Analysis,Synthetic,lsils benchmarks  EPFL logic synthesis benchmarks   ,https://doi.org/10.5281/zenodo.2572934
-Electronics,Executable,Large,System Analysis,Annotated,cad-polito-it I99T  ITC99 benchmarks,https://github.com/cad-polito-it/I99T
-Electronics,Structured,Large,System Analysis,Synthetic,circuit-gnn Graph Neural Networks for Distributed Circuit Design,https://github.com/hehaodele/circuit-gnn
-Electronics,Structured,Large,Decision Making,Annotated,ISPD 2011 Routability-driven Placement Contest and Benchmark Suite,https://www.ispd.cc/contests/11/ispd2011_contest.html
-Electronics,Structured,Large,System Analysis,Curated,CircuitNet  An Open-Source Dataset for Machine Learning Applications in Electronic Design Automation,https://github.com/circuitnet/CircuitNet
-Electronics,Structured,Large,Computer Vision Task,Curated,Printed Circuit Board Processed Image,https://www.doi.org/10.24432/C5DK8H
-Electronics,Image-based,Large,Computer Vision Task,Annotated,The PCB-AoI Public Dataset,https://www.kaggle.com/datasets/kubeedgeianvs/pcb-aoi
-Electronics,Image-based,Small,Error Checking,Annotated,Predictive Maintenance for Electrical Wiring Faults,https://data.mendeley.com/datasets/g6rbmc2ggc/1
-Electronics,Image-based,Large,Computer Vision Task,Annotated,circuit elements Dataset,https://universe.Roboflow.com/Roboflow-100/circuit-elements
-Electronics,Image-based,Large,Computer Vision Task,Annotated,XPACT  Comprehensive X-ray Computed Tomography (CT) Dataset for Printed Circuit Board (PCB) Assurance and Counterfeit Tracking   ,https://github.com/fleathlushby/XPACT/tree/main
-Electronics,Image-based,Small,Computer Vision Task,Annotated,Xray-pcb-detection Computer Vision Dataset,https://universe.Roboflow.com/nd-studio/xray-pcb-detection
-Electronics,Image-based,Small,Computer Vision Task,Annotated,SegPCBX dataset,https://physicaldb.ece.ufl.edu/index.php/segpcbx-dataset/
-Electronics,Structured,Large,Computer Vision Task,Annotated,Bench-PCNP  ,https://ieee-dataport.org/documents/bench-pcnp
-Electronics,Image-based,Large,Computer Vision Task,Curated,dakhmatipcb open-schematics ,https://huggingface.co/datasets/dakhmatipcb/open-schematics
-Electronics,Executable,Large,Computer Vision Task,Curated,symbench spice-datasets  SPICE Netlist Datasets ,https://github.com/symbench/spice-datasets/tree/master
-Electronics,Executable,Large,Decision Making,Curated,Masala-CHAI,https://github.com/jitendra-bhandari/Masala-CHAI/tree/main
-Electronics,Executable,Large,Decision Making,Curated,AnalogGenie,https://github.com/xz-group/AnalogGenie/tree/main
-Electronics,Structured,Large,System Analysis,Synthetic,OpenABC-D  A Large-Scale Dataset For Machine Learning Guided Integrated Circuit Synthesis,https://ultraviolet.library.nyu.edu/records/mw6q2-a8p15
-Electronics,Structured,Small,Computer Vision Task,Curated,GANA_circuit_data  just checking,https://github.com/kkunal1408/GANA_circuit_data/tree/master
-Electronics,Executable,Large,Decision Making,Curated,ALIGN-public CircuitsDatabase,https://github.com/ALIGN-analoglayout/ALIGN-public/tree/master/CircuitsDatabase
-Electronics,Structured,Large,System Analysis,Anonymized,IntelLabs FloorSet,https://github.com/IntelLabs/FloorSet/tree/main
-Electronics,Executable,Large,System Analysis,Curated,ASU-VDA-Lab ML-for-IR-drop ,https://github.com/ASU-VDA-Lab/ML-for-IR-drop/tree/main
-Electronics,Executable,Large,System Analysis,Curated,UMN-EDA BeGAN-benchmarks,https://github.com/UMN-EDA/BeGAN-benchmarks/tree/master
-Electronics,Executable,Large,Decision Making,Curated,VGen,https://github.com/shailja-thakur/VGen/tree/main
-Electronics,Image-based,Small,Computer Vision Task,Annotated,JUHCCR-v1-A,https://www.kaggle.com/datasets/ayush02102001/circuit-component-analysis/data?select=CktComDb-v1.a
-Electronics,Image-based,Small,Computer Vision Task,Annotated,Circuits Model ,https://universe.Roboflow.com/zavrsni/circuits-oxmv9
-Electronics,Image-based,Small,Computer Vision Task,Annotated,Circuit Recognition Model  ,https://universe.Roboflow.com/rp-project/circuit-recognition
-Electronics,Image-based,Small,Computer Vision Task,Annotated,Circuit Component Detection Model  ,https://universe.Roboflow.com/nadim-ahmed/circuit-component-detection-9wiz7
-Electronics,Image-based,Small,Computer Vision Task,Annotated,circuit diagram Model  ,https://universe.Roboflow.com/deeplearning-l1bq5/circuit-diagram-eo4kn
-Electronics,Image-based,Small,Computer Vision Task,Annotated,circuit Model  ,https://universe.Roboflow.com/circuitrecognnition/circuit-3l5sc
-Electronics,Image-based,Small,Computer Vision Task,Annotated,CirAI Model  ,https://universe.Roboflow.com/meezaan-ryklief-ol7dr/cirai-jt6n6
-Electronics,Image-based,Small,Computer Vision Task,Annotated,Cct Dataset  ,https://universe.Roboflow.com/the-hashemite-university-6jqtj/cct-gpbio
-Electronics,Image-based,Small,Computer Vision Task,Annotated,NetlistProject_V2 Dataset  ,https://universe.Roboflow.com/ahmet-emre/netlistproject_v2
-Electronics,Image-based,Small,Computer Vision Task,Annotated,Circuit Diagram Dataset  ,https://universe.Roboflow.com/james-fu-mtcku/circuit-diagram
-Electronics,Image-based,Small,Computer Vision Task,Annotated,CIrcuit Recognition Model  ,https://universe.Roboflow.com/ml-circuit-recognition/circuit-recognition-xddcj
-Electronics,Image-based,Small,Computer Vision Task,Annotated,PCB Oriented Detection,https://www.kaggle.com/datasets/yuyi1005/pcb-oriented-detection
-Electronics,Image-based,Small,Computer Vision Task,Annotated,DsPCBSD+,https://doi.org/10.6084/m9.figshare.24970329
-Built Environment,Structured,Large,System Analysis,Synthetic,Replication Data for  Workload Queuing Dynamics Define the Electricity Demand Baseline of AI Data Centers - DC-Power,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/R6A5BD
-Built Environment,Image-based,Small,Computer Vision Task,Anonymized,anonED  A training free method for anonymising sensitive regions in complex engineering diagrams.   ,https://github.com/mayoT0/anonED
-Built Environment,Structured,Small,System Analysis,Anonymized,SustaGraph_electrical_dataset,https://data.mendeley.com/datasets/4vdpxdd7vp/1
-Power,Structured,Large,System Analysis,Anonymized,GridKit  European and North-American extracts,https://www.doi.org/10.5281/ZENODO.47317
-Power,Structured,Small,System Analysis,Synthetic,KPG  Kirk representation of Power Graphs  ,https://ieee-dataport.org/documents/kpg-kirk-representation-power-graphs
-Power,Structured,Small,System Analysis,Synthetic,ER_SPG  Synthetic Power Graph generation by Erdos-Renyi Model,https://ieee-dataport.org/documents/erspg-synthetic-power-graph-generation-erdos-renyi-model
-Power,Structured,Large,System Analysis,Curated,Electric Grid Test Case Repository,https://electricgrids.engr.tamu.edu/electric-grid-test-cases/
-Power,Image-based,Small,System Analysis,Curated,"Spreading of Disturbances in Realistic Models of Transmission Grids  Dependence on Topology, Inertia and Heterogeneity",https://ieee-dataport.org/documents/supplementary-material-spreading-disturbances-realistic-models-transmission-grids
-Power,Structured,Large,System Analysis,Curated,Item - 10kV-400V Grid Topologies,https://figshare.com/articles/dataset/10kV-400V_Grid_Topologies/14604663
 Power,Structured,Large,System Analysis,Anonymized,Power Distribution Networks Planning in Meshed Loop-Feeder or Open-Loop Topology,https://data.mendeley.com/datasets/yy8spz6v5t/1
-Power,Structured,Small,System Analysis,Anonymized,TUWien_LV_TestGrids,https://data.mendeley.com/datasets/hgh8c99tnx/1
-Power,Structured,Large,System Analysis,Curated,DohaTeslaLab Global Power Grid Map,https://osf.io/wj5fm
-Power,Structured,Large,System Analysis,Curated,Grid Topology for the IKT Simulation,https://zenodo.org/records/15688472
-Power,Structured,Large,System Analysis,Anonymized,Reference data set for a Norwegian medium voltage power distribution system,https://zenodo.org/records/7703070
-Power,Structured,Large,System Analysis,Anonymized,Simplified electricity transmission system from UK (2020),https://zenodo.org/records/6382172
-Power,Structured,Large,System Analysis,Synthetic,Dynamic stability of synthetic power grid models,https://zenodo.org/records/8204334
-Power,Structured,Large,System Analysis,Curated,Structured Power Grid Simulation Dataset for Machine Learning  Failure and Survival Events in Grid2Op's L2RPN WCCI 2022 Environment,https://zenodo.org/records/13948340
-Power,Structured,Large,System Analysis,Synthetic,case60nordic random topology power grid dataset,https://zenodo.org/records/7100302
-Power,Structured,Large,System Analysis,Curated,Georeferentiation of CORE-TSO substations with OSM,https://zenodo.org/records/13367535
-Power,Structured,Small,System Analysis,Synthetic,Synthetic electricity distribution networks from UK for flexibility analysis - ATTEST project,https://zenodo.org/records/7502542
-Power,Structured,Small,System Analysis,Synthetic,"An urban synthetic electricity distribution network from Spain, third version",https://zenodo.org/records/6382240
-Power,Structured,Large,System Analysis,Anonymized,Daily profiles (2040) of load and flexibility of an urban electricity distribution network from Portugal  ATTEST project,https://zenodo.org/records/6401465
-Power,Structured,Large,System Analysis,Anonymized,Daily profiles (2020) of load of a electricity distribution network (86 nodes) from Croatia,https://zenodo.org/records/6382254
-Power,Structured,Small,System Analysis,Curated,CarbonDistributionMap  Code and Dataset for  Open Datasets for Grid Modeling and Visualization  An Alberta Power Network Case   ,https://github.com/BenCheng2/CarbonDistributionMap/tree/main
-Power,Structured,Large,System Analysis,Anonymized,caltech-netlab digital-twin-dataset   ,https://github.com/caltech-netlab/digital-twin-dataset/tree/master
-Power,Structured,Large,System Analysis,Synthetic,"OEDI  SMART-DS Synthetic Electrical Network Data OpenDSS Models for SFO, GSO, and AUS",https://data.openei.org/submissions/2981
-Power,Structured,Large,System Analysis,Anonymized,OpenSynth D-GITT-RTE7000-2021   Datasets at Hugging Face,https://huggingface.co/datasets/OpenSynth/D-GITT-RTE7000-2021
-Power,Structured,Large,System Analysis,Curated,Africa - Electricity Transmission and Distribution Grid Map,https://datacatalog.worldbank.org/search/dataset/0040465/africa-electricity-transmission-and-distribution-grid-map
-Power,Structured,Large,System Analysis,Curated,Electricity Transmission Lines  Digital Atlas of Australia,https://digital.atlas.gov.au/datasets/digitalatlas::electricity-transmission-lines/about
-Power,Structured,,System Analysis,Curated,Derived map of global electricity transmission and distribution lines Dataset,https://energydata.info/dataset/derived-map-of-global-electricity-transmission-and-distribution-lines
-Power,Structured,Large,System Analysis,Curated,A large synthetic dataset for machine learning applications in power transmission grids,https://zenodo.org/records/13378476
-Power,Structured,Large,System Analysis,Anonymized,Columbia University Synthetic Power Grid with Geographical Coordinates,https://wimnet.ee.columbia.edu/portfolio/synthetic-power-grids-data-sets/
-Power,Structured,Large,System Analysis,Synthetic,synthetic power grid dataset,https://zenodo.org/records/14272557
-Power,Structured,Large,System Analysis,Anonymized,Item - Node information of Chilean power grid without tap,https://figshare.com/articles/dataset/Node_information_of_Chilean_power_grid_without_tap/6066578?file=10920506
-Power,Structured,Large,System Analysis,Curated,Item - 60kV Grid-Topology - Technical University of Denmark,https://data.dtu.dk/articles/dataset/60kV_Grid-Topology/14501406
-Power,Structured,Small,System Analysis,Anonymized,European power grid network with nodal prices,https://zenodo.org/records/7037956
-Power,Structured,Large,System Analysis,Curated,ECOWAS Region - Existing and Planned Transmission Grid - Dataset - ,https://energydata.info/dataset/transmission-grid-ecowas-region
-Power,Structured,Large,System Analysis,Anonymized,Medium-Voltage Distribution (Predictive) - Dataset,https://energydata.info/dataset/medium-voltage-distribution-predictive
-Power,Structured,Large,System Analysis,Curated,Dominican Republic Electricity Transmission Network 2023 - Dataset - ,https://energydata.info/dataset/dominican-republic-electricity-transmission-network-2023
-Power,Structured,Large,System Analysis,Curated,Liberia electricity transmission network 2023 - Dataset - ,https://energydata.info/dataset/liberia-electricity-transmission-network-2023
-Power,Structured,Large,System Analysis,Curated,Egypt - Electricity Transmission Network - Dataset - ,https://energydata.info/dataset/egypt-electricity-transmission-network-2017
-Power,Structured,Large,System Analysis,Curated,Yemen - Electricity Transmission Network - Dataset - ,https://energydata.info/dataset/yemen-electricity-transmission-network-2017
-Power,Structured,Large,System Analysis,Curated,e2nIEE simbench  Electrical Power System Benchmark Dataset directly usable with pandapower (use the project website for Executable tools),https://github.com/e2nIEE/simbench
+Electronics,Image-based,Small,Error Checking,Annotated,Predictive Maintenance for Electrical Wiring Faults,https://data.mendeley.com/datasets/g6rbmc2ggc/1
+Electronics,Structured,Large,Computer Vision Task,Curated,Printed Circuit Board Processed Image,https://www.doi.org/10.24432/C5DK8H
 Power,Structured,Large,"Decision Making, System Analysis",Curated,PyPSA pypsa-eur  PyPSA-Eur  A Sector-Coupled Open Optimisation Model of the European Energy System,https://github.com/PyPSA/pypsa-eur/tree/master
 Power,Structured,Large,"Decision Making, System Analysis",Curated,PyPSA-USA  An Open-Source Energy System Optimization Model for the United States,https://zenodo.org/records/18601519
-Power,Structured,Large,System Analysis,Curated,MATPOWER,https://zenodo.org/records/15871662
+Electronics,Image-based-based,Small,Computer Vision Task,Anonymized,Python Keras CNN for Electronic Symbol Image Recognition,https://github.com/hernancontigiani/Electronic-symbol-recognition-system/tree/master
+Electronics,Executable,Large,Decision Making,Synthetic,QSBench  Synthetic quantum circuit datasets for QML benchmarking,https://huggingface.co/datasets/QSBench/QSBench-Core-v1.0.0-demo
+Power,Structured,Large,System Analysis,Anonymized,Reference data set for a Norwegian medium voltage power distribution system,https://zenodo.org/records/7703070
+Built Environment,Structured,Large,System Analysis,Synthetic,Replication Data for  Workload Queuing Dynamics Define the Electricity Demand Baseline of AI Data Centers - DC-Power,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/R6A5BD
 Power,Structured,Large,System Analysis,Curated,SDET Collection,https://db.bettergrids.org/handle/1001/97
-Power,Structured,Large,System Analysis,Curated,Line list for the transmission grid in Germany and interconnectors in 2030 lines_eom_plus lines_transmission_germany_eomplus,https://openenergyplatform.org/database/tables/lines_transmission_germany_eomplus
+Electronics,Image-based,Small,Computer Vision Task,Annotated,SegPCBX dataset,https://physicaldb.ece.ufl.edu/index.php/segpcbx-dataset/
+Power,Structured,Large,System Analysis,Anonymized,Simplified electricity transmission system from UK (2020),https://zenodo.org/records/6382172
+Electronics,Image-based,Large,Error Checking,Annotated,SPot-the-Difference,https://github.com/amazon-science/spot-diff
+Power,Image-based,Small,System Analysis,Curated,"Spreading of Disturbances in Realistic Models of Transmission Grids  Dependence on Topology, Inertia and Heterogeneity",https://ieee-dataport.org/documents/supplementary-material-spreading-disturbances-realistic-models-transmission-grids
+Electronics,Image-based,Large,Error Checking,Curated,SSRheart PCB-Bank,https://github.com/SSRheart/PCB-Bank/tree/main
+Power,Structured,Large,System Analysis,Curated,Structured Power Grid Simulation Dataset for Machine Learning  Failure and Survival Events in Grid2Op's L2RPN WCCI 2022 Environment,https://zenodo.org/records/13948340
+Built Environment,Structured,Small,System Analysis,Anonymized,SustaGraph_electrical_dataset,https://data.mendeley.com/datasets/4vdpxdd7vp/1
+Electronics,Executable,Large,Computer Vision Task,Curated,symbench spice-datasets  SPICE Netlist Datasets ,https://github.com/symbench/spice-datasets/tree/master
+Built Environment,Image-based,Small,Computer Vision Task,Annotated,symbol Dataset ,https://universe.Roboflow.com/trial-s9d0l/symbol-upc23
+Power,Structured,Small,System Analysis,Synthetic,Synthetic electricity distribution networks from UK for flexibility analysis - ATTEST project,https://zenodo.org/records/7502542
+Power,Structured,Large,System Analysis,Synthetic,synthetic power grid dataset,https://zenodo.org/records/14272557
+Electronics,Image-based,Small,Computer Vision Task,Synthetic,Systems Evaluation SYnthetic Documents,http://mathieu.delalandre.free.fr/projects/sesyd/symbols/diagrams.html
+Electronics,Image-based,Large,Error Checking,Curated,The GraphPCB Dataset  ,https://ieee-dataport.org/documents/graphpcb-dataset
+Electronics,Image-based,Large,Computer Vision Task,Annotated,The PCB-AoI Public Dataset,https://www.kaggle.com/datasets/kubeedgeianvs/pcb-aoi
+Electronics,Image-based,Small,Error Checking,Annotated,The screen-printed circuit defect dataset,https://www.scidb.cn/en/detail?dataSetId=3210a1b603d34ad7bc9053008161ad65&version=V2
+Power,Structured,Small,System Analysis,Anonymized,TUWien_LV_TestGrids,https://data.mendeley.com/datasets/hgh8c99tnx/1
+Electronics,Executable,Large,System Analysis,Curated,UMN-EDA BeGAN-benchmarks,https://github.com/UMN-EDA/BeGAN-benchmarks/tree/master
+Electronics,Executable,Large,Decision Making,Curated,VGen,https://github.com/shailja-thakur/VGen/tree/main
+Electronics,Image-based,Large,Computer Vision Task,Annotated,XPACT  Comprehensive X-ray Computed Tomography (CT) Dataset for Printed Circuit Board (PCB) Assurance and Counterfeit Tracking   ,https://github.com/fleathlushby/XPACT/tree/main
+Electronics,Image-based,Small,Computer Vision Task,Annotated,Xray-pcb-detection Computer Vision Dataset,https://universe.Roboflow.com/nd-studio/xray-pcb-detection
+Power,Structured,Large,System Analysis,Curated,Yemen - Electricity Transmission Network - Dataset - ,https://energydata.info/dataset/yemen-electricity-transmission-network-2017
