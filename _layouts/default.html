@@ -5,7 +5,7 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <!-- INLINE CSS FOR DEBUGGING -->
+  <!-- INLINE CSS -->
   <style>
     body {
       font-family: system-ui, -apple-system, sans-serif;
@@ -42,7 +42,7 @@
     }
 
     .footer-image {
-      max-width: 50px;
+      max-width: 250px;
       width: 100%;
       height: auto;
       display: block;
@@ -58,14 +58,21 @@
   <h1>Electrical Layout Dataset Directory</h1>
 </header>
   
-<nav>
+<nav class="main-nav">
+  <div class="nav-image">
+    <img
+      src="{{ '/assets/images/domain.jpg' | relative_url }}"
+      alt="Electrical Layouts Dataset Domains"
+    />
+  </div>
+
   <ul>
-  <li><a href="{{ '/' | relative_url }}">Overview</a></li>
-  <li><a href="{{ '/domain/' | relative_url }}">Domain</a></li>
-  <li><a href="{{ '/format/' | relative_url }}">Format</a></li>
-  <li><a href="{{ '/scale/' | relative_url }}">Scale</a></li>
-  <li><a href="{{ '/objective/' | relative_url }}">Objective</a></li>
-  <li><a href="{{ '/annotation/' | relative_url }}">Annotation</a></li>
+    <li><a href="{{ '/' | relative_url }}">Overview</a></li>
+    <li><a href="{{ '/domain/' | relative_url }}">Domain</a></li>
+    <li><a href="{{ '/format/' | relative_url }}">Format</a></li>
+    <li><a href="{{ '/scale/' | relative_url }}">Scale</a></li>
+    <li><a href="{{ '/objective/' | relative_url }}">Objective</a></li>
+    <li><a href="{{ '/annotation/' | relative_url }}">Annotation</a></li>
   </ul>
 </nav>
   
