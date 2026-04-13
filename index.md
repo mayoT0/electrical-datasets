@@ -3,12 +3,6 @@ layout: default
 title: Dataset Directory
 ---
 
-## Diagnostic
-
-| Works | Test |
-|------|------|
-| Yes | Table |
-
 # Dataset Directory
 
 ## Format
@@ -18,7 +12,6 @@ title: Dataset Directory
 ### {{ format.name }}
 
 | Title | Link |
-|------|------|
 {% for item in format.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
@@ -31,7 +24,6 @@ title: Dataset Directory
 ### {{ scale.name }}
 
 | Title | Link |
-|------|------|
 {% for item in scale.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
@@ -44,7 +36,6 @@ title: Dataset Directory
 ### {{ obj.name }}
 
 | Title | Link |
-|------|------|
 {% for item in obj.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
@@ -57,7 +48,6 @@ title: Dataset Directory
 ### {{ ann.name }}
 
 | Title | Link |
-|------|------|
 {% for item in ann.items %}
 | {{ item.title }} | {{ item.url }} |
 {% endfor %}
